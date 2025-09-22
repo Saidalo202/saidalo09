@@ -1,0 +1,95 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f0f0f0, #d7e3ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+}
+
+.login-box {
+  flex: 1;
+  padding: 30px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+
+.tabs button.active {
+  background: #ff4757;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 12px;
+  border: none;
+  background: #ff4757;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register a {
+  color: #ff4757;
+  text-decoration: none;
+}
+
+.image-box {
+  flex: 1;
+  background: #eef2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  max-width: 100%;
+}
